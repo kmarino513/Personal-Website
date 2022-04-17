@@ -1,0 +1,125 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  color: #cccccc;
+  background-color: #111111;
+  overflow-x: hidden;
+  line-height: 150%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+nav li {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  width: 150px;
+}
+
+a {
+  /* color: rgb(156, 198, 212); */
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  color: coral;
+  font-size: 30px;
+}
+
+h3 {
+  color: firebrick;
+}
+
+li {
+  list-style-type: circle;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  /* Background Image Source: (original work) Anchey Peng */
+  background-image: url('../images/ithaca.jpg');
+  background-size: cover;
+  background-position: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+  /* padding-top: 100px;
+  padding-bottom: 50px; */
+  padding: 100px 30px 50px 30px;
+}
+
+.flex {
+  padding-bottom: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.headshot {
+  border-radius: 50%;
+  padding: 0 50px 0 50px;
+  height: 220px;
+}
+
+.resume h2,
+.portfolio h2 {
+  padding-top: 30px;
+}
+
+.resume h3 {
+  padding-top: 10px;
+  margin: 0;
+}
+
+.resume h4 {
+  margin-top: 8px;
+}
+
+.indent {
+  margin-left: 15px;
+}
+
+.portfolio img {
+  border-radius: 10px;
+  width: 450px;
+  margin: 25px 50px 0 0;
+}
+
+.portfolio .flex {
+  padding-bottom: 20px;
+}
