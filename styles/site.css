@@ -56,8 +56,7 @@ li {
 .hero {
   height: 100vh;
   width: 100vw;
-  /* Background Image Source: (original work) Anchey Peng */
-  background-image: url('../images/ithaca.jpg');
+  background-image: "Images/Headshot.JPG"
   background-size: cover;
   background-position: bottom;
   display: flex;
