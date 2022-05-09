@@ -23,7 +23,7 @@ nav {
 
 nav li {
   text-align: center;
-  color: gray;
+  color: #9a9a9a;
   display: inline-block;
   width: 150px;
 }
@@ -43,6 +43,10 @@ h2 {
   color: coral;
   font-size: 30px;
 }
+
+h4 {
+  color: #9a9a9a;
+  font-size: 30px;
 
 li {
   list-style-type: circle;
