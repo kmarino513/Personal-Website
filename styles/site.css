@@ -30,7 +30,7 @@ nav li {
 }
 
 a {
-  color: white;
+  color: #C0C0C0;
   text-decoration: none;
   font-weight: 600;
 }
@@ -67,6 +67,7 @@ li {
 
 .title {
   font-size: 20px;
+  color: #808080;
 }
 
 .content {
