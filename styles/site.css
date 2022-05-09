@@ -6,7 +6,7 @@ body {
 
 body {
   font-family: Verdana, sans-serif;
-  color: #a6a6a6;
+  color: #cccccc;
   background-color: #111111;
   overflow-x: hidden;
   line-height: 150%;
@@ -23,13 +23,12 @@ nav {
 
 nav li {
   text-align: center;
-  color: black;
+  color: gray;
   display: inline-block;
   width: 150px;
 }
 
 a {
-  /* color: rgb(156, 198, 212); */
   color: white;
   text-decoration: none;
   font-weight: 600;
@@ -43,10 +42,6 @@ h1 {
 h2 {
   color: coral;
   font-size: 30px;
-}
-
-h3 {
-  color: firebrick;
 }
 
 li {
