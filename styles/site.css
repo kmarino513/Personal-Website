@@ -6,7 +6,7 @@ body {
 
 body {
   font-family: Verdana, sans-serif;
-  color: #cccccc;
+  color: #a6a6a6;
   background-color: #111111;
   overflow-x: hidden;
   line-height: 150%;
@@ -23,7 +23,7 @@ nav {
 
 nav li {
   text-align: center;
-  color: white;
+  color: black;
   display: inline-block;
   width: 150px;
 }
