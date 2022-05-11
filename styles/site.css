@@ -48,21 +48,17 @@ li {
   list-style-type: circle;
 }
 
-.hero-image {
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Background.jpg");
   -webkit-filter: blur(8px);
   height: 50%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Background.jpg");
   background-size: cover;
   background-position: bottom;
   display: flex;
-}
-
-.hero-text {
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: flex;
 }
 
 .title {
