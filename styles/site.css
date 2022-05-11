@@ -49,9 +49,11 @@ li {
 }
 
 .hero {
-  height: 100vh;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 50vh;
   width: 100vw;
-  background-image: url("../Images/Background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/Background.jpg");
   background-size: cover;
   background-position: bottom;
   display: flex;
